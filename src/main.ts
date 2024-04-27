@@ -1,4 +1,4 @@
-import { APIGatewayProxyEventV2 } from "https://deno.land/x/lambda/mod.ts";
+import { APIGatewayProxyEventV2 } from "npm:aws-lambda";
 import { hello } from "./hello.ts";
 
 export const handler = (event: APIGatewayProxyEventV2) => {
